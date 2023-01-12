@@ -277,6 +277,9 @@ dependencies {
     } else {
         implementation jscFlavor
     }
+
+    // To recognize Korean script
+    implementation 'com.google.mlkit:text-recognition-korean:16.0.0-beta6'
 }
 
 if (isNewArchitectureEnabled()) {
